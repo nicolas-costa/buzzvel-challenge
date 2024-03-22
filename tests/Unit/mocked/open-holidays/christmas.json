@@ -1,0 +1,433 @@
+[
+    {
+        "id": "06923c19-7ef9-4a22-9374-bf9bb50474d1",
+        "country": {
+            "isoCode": "MC"
+        },
+        "nationwide": true,
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ]
+    },
+    {
+        "id": "0f0a7e03-7998-445e-8134-e2f3ee684893",
+        "country": {
+            "isoCode": "NL"
+        },
+        "nationwide": true,
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ]
+    },
+    {
+        "id": "193d3e51-39d5-4ad9-9534-6eeb87f38123",
+        "country": {
+            "isoCode": "LU"
+        },
+        "nationwide": true,
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ]
+    },
+    {
+        "id": "25753733-87e2-40fe-adf7-beb4d11969ac",
+        "country": {
+            "isoCode": "FR"
+        },
+        "nationwide": true,
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ]
+    },
+    {
+        "id": "25f24e1d-6b6e-4595-bca0-d71fb09e93aa",
+        "country": {
+            "isoCode": "AT"
+        },
+        "nationwide": true,
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ]
+    },
+    {
+        "id": "284e745b-9bb6-4f5d-a7b6-9415b4684d6a",
+        "country": {
+            "isoCode": "HR"
+        },
+        "nationwide": true,
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas"
+            }
+        ]
+    },
+    {
+        "id": "38ea4de4-0fc7-4f76-ae49-223ac3d46aff",
+        "country": {
+            "isoCode": "VA"
+        },
+        "nationwide": true,
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ]
+    },
+    {
+        "id": "3be0149d-7ceb-433e-8222-40bb57d6933e",
+        "country": {
+            "isoCode": "SM"
+        },
+        "nationwide": true,
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ]
+    },
+    {
+        "id": "3f943b1e-9dd6-43a8-aa1b-ce9ab756b33e",
+        "country": {
+            "isoCode": "IE"
+        },
+        "nationwide": true,
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ]
+    },
+    {
+        "id": "4a55516b-d8c5-4ff8-8953-605540f5365f",
+        "country": {
+            "isoCode": "AL"
+        },
+        "nationwide": true,
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ]
+    },
+    {
+        "id": "4b8d9bf0-f5ad-4e51-a66b-085a39893d7f",
+        "country": {
+            "isoCode": "CZ"
+        },
+        "nationwide": true,
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ]
+    },
+    {
+        "id": "557a1a13-a995-4958-879c-f717eddb5dc3",
+        "country": {
+            "isoCode": "SK"
+        },
+        "nationwide": true,
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ]
+    },
+    {
+        "id": "6fb193a1-1941-461c-b8fc-5f30de0b6bdb",
+        "country": {
+            "isoCode": "BG"
+        },
+        "nationwide": true,
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ]
+    },
+    {
+        "id": "855721f7-cad9-4a71-90eb-6382d9b6e6ff",
+        "country": {
+            "isoCode": "PT"
+        },
+        "nationwide": true,
+        "quality": "Mandatory",
+        "type": "National",
+        "name": [
+            {
+                "language": "PT",
+                "text": "Natal"
+            }
+        ]
+    },
+    {
+        "id": "89cc8f3a-cdec-4d60-820f-e65bd389be5c",
+        "country": {
+            "isoCode": "CH"
+        },
+        "nationwide": true,
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas"
+            }
+        ]
+    },
+    {
+        "id": "96fad19e-0a5a-49de-a60f-6f4451b96bfe",
+        "country": {
+            "isoCode": "SI"
+        },
+        "nationwide": true,
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ]
+    },
+    {
+        "id": "a18e7f48-26b7-4f1d-a463-fad5593c0505",
+        "country": {
+            "isoCode": "PL"
+        },
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "PL-ZP",
+                "shortName": "ZP"
+            },
+            {
+                "code": "PL-LU",
+                "shortName": "LU"
+            },
+            {
+                "code": "PL-LB",
+                "shortName": "LB"
+            },
+            {
+                "code": "PL-WP",
+                "shortName": "WP"
+            },
+            {
+                "code": "PL-MA",
+                "shortName": "MA"
+            },
+            {
+                "code": "PL-PD",
+                "shortName": "PD"
+            },
+            {
+                "code": "PL-KP",
+                "shortName": "KP"
+            },
+            {
+                "code": "PL-PK",
+                "shortName": "PK"
+            },
+            {
+                "code": "PL-WN",
+                "shortName": "WN"
+            },
+            {
+                "code": "PL-DS",
+                "shortName": "DS"
+            },
+            {
+                "code": "PL-SL",
+                "shortName": "SL"
+            },
+            {
+                "code": "PL-LD",
+                "shortName": "LD"
+            },
+            {
+                "code": "PL-SK",
+                "shortName": "SK"
+            },
+            {
+                "code": "PL-PM",
+                "shortName": "PM"
+            },
+            {
+                "code": "PL-MZ",
+                "shortName": "MZ"
+            },
+            {
+                "code": "PL-OP",
+                "shortName": "OP"
+            }
+        ],
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ]
+    },
+    {
+        "id": "bc1f0bcb-4956-459b-920a-2eae2b2ae5d8",
+        "country": {
+            "isoCode": "BE"
+        },
+        "nationwide": true,
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ]
+    },
+    {
+        "id": "c9c1cb73-1ff7-4b7d-8cfa-3ddab1728814",
+        "country": {
+            "isoCode": "LV"
+        },
+        "nationwide": true,
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ]
+    },
+    {
+        "id": "d1b745b1-fff2-4e96-a16d-e60f2a3ed698",
+        "country": {
+            "isoCode": "LI"
+        },
+        "nationwide": true,
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ]
+    },
+    {
+        "id": "d5174243-d303-44f8-97bb-40618b12a1c9",
+        "country": {
+            "isoCode": "MT"
+        },
+        "nationwide": true,
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "​​​​Christmas Day"
+            }
+        ]
+    },
+    {
+        "id": "d84cc8a2-24ff-47e4-af53-692c024f0e6c",
+        "country": {
+            "isoCode": "HU"
+        },
+        "nationwide": true,
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ]
+    },
+    {
+        "id": "db6aa11b-7acb-4a2a-a8a4-0a82912158ea",
+        "country": {
+            "isoCode": "IT"
+        },
+        "nationwide": true,
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ]
+    },
+    {
+        "id": "e6969055-67e3-4ad4-b13c-524bd4f5469f",
+        "country": {
+            "isoCode": "LT"
+        },
+        "nationwide": true,
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ]
+    },
+    {
+        "id": "eca484e0-f6a7-4ca4-9891-5def5648c97c",
+        "country": {
+            "isoCode": "DE"
+        },
+        "nationwide": true,
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ]
+    },
+    {
+        "id": "fd8e323c-c44f-4a3a-ae2f-081f6a5fc6a2",
+        "country": {
+            "isoCode": "EE"
+        },
+        "nationwide": true,
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ]
+    }
+]

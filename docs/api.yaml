@@ -1,0 +1,192 @@
+openapi: 3.0.0
+info:
+  title: Holiday Plans API
+  description: API documentation for managing holiday plans
+  version: 1.0.0
+tags:
+  - name: Holidays
+    description: Holidays operations
+paths:
+  /api/v1/holiday-plans:
+    get:
+      summary: Get all holiday plans
+      operationId: index
+      tags:
+        - Holidays
+      responses:
+        '200':
+          description: A list of holiday plans
+          content:
+            application/json:
+              example:
+                data:
+                  - id: 1
+                    title: test
+                    description: description
+                    date: 2024-03-16
+                    location: place
+                    participants:
+                      - john
+                      - doe
+                  - id: 2
+                    title: another test
+                    description: another description
+                    date: 2024-03-17
+                    location: another place
+                    participants:
+                      - jane
+                      - smith
+                pagination:
+                  total: 100
+                  per_page: 10
+                  current_page: 1
+                  last_page: 10
+                  from: 1
+                  to: 10
+    post:
+      summary: Create a new holiday plan
+      operationId: store
+      tags:
+        - Holidays
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+                description:
+                  type: string
+                date:
+                  type: string
+                  format: date
+                location:
+                  type: string
+                participants:
+                  type: array
+                  items:
+                    type: string
+      responses:
+        '201':
+          description: Created successfully
+          content:
+            application/json:
+              example:
+                id: 1
+                url: http://example.com/api/v1/holiday-plans/1
+        '400':
+          description: Bad request
+        '500':
+          description: Internal server
+  /api/v1/holiday-plans/{holidayPlan}:
+    get:
+      summary: Get a holiday plan by ID
+      operationId: show
+      tags:
+        - Holidays
+      parameters:
+        - name: holidayPlan
+          in: path
+          required: true
+          description: ID of the holiday plan to retrieve
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              example:
+                id: 1
+                title: test
+                description: description
+                date: 2024-03-16
+                location: place
+                participants:
+                  - john
+                  - doe
+                url: http://example.com/api/v1/holiday-plans/1
+        '404':
+          description: Not found
+    put:
+      summary: Update a holiday plan
+      operationId: update
+      tags:
+        - Holidays
+      parameters:
+        - name: holidayPlan
+          in: path
+          required: true
+          description: ID of the holiday plan to update
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+                description:
+                  type: string
+                date:
+                  type: string
+                  format: date
+                location:
+                  type: string
+                participants:
+                  type: array
+                  items:
+                    type: string
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad request
+        '404':
+          description: Not found
+        '500':
+          description: Internal server
+    delete:
+      summary: Delete a holiday plan
+      operationId: destroy
+      tags:
+        - Holidays
+      parameters:
+        - name: holidayPlan
+          in: path
+          required: true
+          description: ID of the holiday plan to delete
+          schema:
+            type: integer
+      responses:
+        '204':
+          description: No content
+        '404':
+          description: Not found
+        '500':
+          description: Internal server
+  /api/v1/holiday-plans/{holidayPlan}/pdf:
+    get:
+      summary: Generate PDF for a holiday plan
+      operationId: pdf
+      tags:
+        - Holidays
+      parameters:
+        - name: holidayPlan
+          in: path
+          required: true
+          description: ID of the holiday plan to generate PDF for
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: PDF file
+        '404':
+          description: Not found
+
+

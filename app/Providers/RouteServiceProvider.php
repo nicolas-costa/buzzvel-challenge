@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use App\Models\HolidayPlan;
+use App\Transformers\HolidayPlanTransformer;
 use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 use Illuminate\Http\Request;
@@ -35,6 +37,13 @@ class RouteServiceProvider extends ServiceProvider
 
             Route::middleware('web')
                 ->group(base_path('routes/web.php'));
+        });
+
+        $this->bind('holidayPlan', function (string $value) {
+            $model = HolidayPlan::where('user_id', auth()->id())
+                ->findOrFail($value);
+
+            return HolidayPlanTransformer::toDTO($model);
         });
     }
 

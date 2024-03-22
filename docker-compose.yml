@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+    database:
+        container_name: buzzvel-db
+        image: mysql:8.0
+        ports:
+            - '33060:3306'
+        volumes:
+            - ./mysql-data:/var/lib/mysql
+        environment:
+            MYSQL_DATABASE: buzzvel
+            MYSQL_ROOT_PASSWORD: buzzvel

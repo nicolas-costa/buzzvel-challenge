@@ -1,0 +1,17 @@
+[
+    {
+        "id": "67659bc1-18da-4fb3-8294-f0fb92bdbe11",
+        "country": {
+            "isoCode": "PT"
+        },
+        "nationwide": true,
+        "quality": "Optional",
+        "type": "National",
+        "name": [
+            {
+                "language": "PT",
+                "text": "Carnaval"
+            }
+        ]
+    }
+]
