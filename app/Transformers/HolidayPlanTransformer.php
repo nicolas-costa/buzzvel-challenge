@@ -64,6 +64,7 @@ class HolidayPlanTransformer
     {
         $data = $paginator->getCollection()->map(function ($holidayPlan) {
             return [
+                'id' => $holidayPlan->id,
                 'title' => $holidayPlan->title,
                 'description' => $holidayPlan->description,
                 'date' => $holidayPlan->date->format('Y-m-d'),
@@ -89,6 +90,7 @@ class HolidayPlanTransformer
     public static function toArray(HolidayPlanDTO $holidayPlanDTO): array
     {
         return [
+            'id' => $holidayPlanDTO->getId(),
             'title' => $holidayPlanDTO->getTitle(),
             'description' => $holidayPlanDTO->getDescription(),
             'date' => $holidayPlanDTO->getDate(),
